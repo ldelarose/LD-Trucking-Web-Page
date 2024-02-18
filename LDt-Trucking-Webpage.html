@@ -34,8 +34,7 @@
     <img src="istockphoto-186094031-612x612.jpg" id="truck-picture" >
 </div>
 
-<div>
-
+<div class="information">
     <p>If you would like to get a quote please fill out the following information:
     <ul>
         <li>Contact information</li>
@@ -45,6 +44,27 @@
 </p>
 </div>
     </div>
+
+<div>
+    <div>
+        <form action="insert-data" method="get" class="input">
+            <div>
+            <label>Input Contact information</label>
+            <input type="text" id="Contact-information-text" name="Contact-information-text" required value="(123)456-789">
+            </div>
+            <div>
+            <label>Input Location of Delivery/Pick Up</label>
+            <input type="text" id="Input-location" name="Input-location" required>
+            </div>
+            <div>
+            <label>Amount of loads and materials needed</label>
+            <textarea id="details-of-delivery" name="details-of-delivery" rows="4" cols="50" required></textarea>
+            <button type="submit" >Submit</button>
+            </div>
+
+        </form>
+    </div>
+</div>
 
 
 
